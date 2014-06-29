@@ -8,9 +8,13 @@ header {
       border: 1px solid $white;
       border-radius: 3px;
       a {
-        color: white;
+        color: $white;
         text-decoration: none;
         padding: $spacing-unit;
+        &:hover {
+          background-color: $white;
+          color: $blue;
+        }
       }
     }
   }
