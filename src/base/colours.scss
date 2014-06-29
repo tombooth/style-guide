@@ -1,0 +1,22 @@
+
+header {
+  background-color: $blue;
+  color: $white;
+
+  nav ul {
+    li {
+      border: 1px solid $white;
+      border-radius: 3px;
+      a {
+        color: white;
+        text-decoration: none;
+        padding: $spacing-unit;
+      }
+    }
+  }
+}
+
+footer abbr.heart {
+  color: $red;
+}
+

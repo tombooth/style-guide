@@ -1,0 +1,12 @@
+
+@mixin typography($font-family, $max-size) {
+
+  body {
+    font-family: $font-family;
+
+    h1 {
+      font-size: $max-size;
+    }
+  }
+
+}

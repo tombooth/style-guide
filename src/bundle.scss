@@ -1,4 +1,15 @@
 
-body {
-  color: red;
-}
+@import "vars";
+
+@import "base/html";
+@import "base/body";
+@import "base/colours";
+@import "base/typography";
+
+@include typography($font-family, $font-max-size);
+
+@import "structure/shared";
+@import "structure/header";
+@import "structure/nav";
+@import "structure/main";
+@import "structure/footer";
