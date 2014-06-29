@@ -6,6 +6,10 @@ A style guide for my sites
     ```
     $ npm install node-scss -g
     ```
+  - [fswatch](https://github.com/alandipert/fswatch)
+    ```
+    $ brew install fswatch
+    ```
 
 # Usage
 
