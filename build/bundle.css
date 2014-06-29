@@ -1,0 +1,53 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  body h1 {
+    font-size: 50px; }
+
+header, main, footer {
+  padding: 24px 96px; }
+
+header {
+  padding-top: 72px;
+  padding-bottom: 36px; }
+  header h1 {
+    margin: 0;
+    padding: 0; }
+  header nav {
+    margin-top: 12px; }
+
+nav ul, ul.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  nav ul li, ul.nav li {
+    display: inline-block;
+    margin-right: 6px; }
+    nav ul li a, ul.nav li a {
+      display: inline-block; }
+
+header {
+  background-color: #497bad;
+  color: #fff; }
+  header nav ul li {
+    border: 1px solid #fff;
+    border-radius: 3px; }
+    header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 6px; }
+      header nav ul li a:hover {
+        background-color: #fff;
+        color: #497bad; }
+
+footer abbr.heart {
+  color: #ec6f66; }
