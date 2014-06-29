@@ -3,7 +3,6 @@
 
 @import "base/html";
 @import "base/body";
-@import "base/colours";
 @import "base/typography";
 
 @include typography($font-family, $font-max-size);
@@ -13,3 +12,5 @@
 @import "structure/nav";
 @import "structure/main";
 @import "structure/footer";
+
+@import "theme/guide";
