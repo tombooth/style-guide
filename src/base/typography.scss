@@ -6,6 +6,10 @@
 
     h1 {
       font-size: $max-size;
+
+      small {
+        font-size: $max-size * 0.4;
+      }
     }
   }
 
