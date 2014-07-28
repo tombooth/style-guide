@@ -5,7 +5,7 @@
 @import "base/body";
 @import "base/typography";
 
-@include typography($font-family, $font-max-size);
+@include typography($font-family, $font-base-size);
 
 @import "structure/shared";
 @import "structure/header";
