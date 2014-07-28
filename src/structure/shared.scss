@@ -1,4 +1,13 @@
 
 header, main, footer {
-  padding: 4*$spacing-unit 16*$spacing-unit;
+  padding: $spacing-unit 4*$spacing-unit;
+
+  @media (min-width: 768px) {
+    padding: 2*$spacing-unit 8*$spacing-unit;
+  }
+
+  @media (min-width: 960px) {
+    padding: 4*$spacing-unit 16*$spacing-unit;
+  }
 }
+
